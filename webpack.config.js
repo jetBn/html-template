@@ -92,8 +92,7 @@ module.exports = {
         ],
     },
     devServer: {
-        contentBase: path.join(__dirname, "../src"),
-        hot: true
+        contentBase: path.join(__dirname, "../src")
     },
    /* externals: {
         $: "jQuery"
@@ -136,7 +135,6 @@ module.exports = {
         // new PreloadWebpackPlugin({
         //     include: "initial"
         //   }), 
-        new CssUrlRelativePlugin(),
-        new webpack.HotModuleReplacementPlugin()
+        new CssUrlRelativePlugin()
     ]
 }
