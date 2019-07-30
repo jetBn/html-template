@@ -1,0 +1,41 @@
+$fontColor:#333;
+
+header{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+    text-align: center;
+    color: $fontColor;
+    line-height: 60px;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    color: $fontColor;
+    .left{
+        width: 200px;
+        height: 100%;
+        float: left;
+        background:blue;
+    }
+    .mid{
+        margin:0 200px;
+        height:100%;
+        background: #659;
+    }
+    .right{
+        width: 200px;
+        height: 100%;
+        background: gold;
+        float: right;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background: #ddd;
+    line-height: 80px;
+    text-align: center; 
+}

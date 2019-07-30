@@ -1,0 +1,16 @@
+body{
+    font: normal 100%  Helvetica, Arial, sans-serif; 
+}
+
+div{
+    background: #000;
+    width: 20px;
+    height: 20px;
+    background: url('../public/static/images/not-mack-close-ico.png') no-repeat center;
+    background-size: cover;
+}
+a{
+    width: 200px;
+    height: 500px;
+    font-size: 2rem;
+}
